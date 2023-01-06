@@ -2,6 +2,59 @@
     box-sizing: border-box;
     text-align: center;
 }
-nav a{
+nav h1{
+    font-size: 3rem;
+    margin: 2rem;
+    text-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+    color: turquoise;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 890;
+}
+header nav a{
     text-decoration: none;
+    margin-right: 3rem;
+    /* border:1px solid red; */
+    padding: 1rem;
+    background-color: hsla(30, 100%, 70%, 1);
+    color: black;
+    border-radius: 10%;
+}
+header nav a:hover{
+    background-color: magenta;
+    color: white;
+    box-shadow: 10px 5px 5px rgba(0,0,0,0.3);
+    font-size: 1.1rem;
+}
+div h3{
+    margin-top: 2rem;
+    color: magenta;
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline;
+
+}
+li{
+    font-size: 1.2rem;
+}
+ol img{
+    /* border: 1px solid red; */
+    box-shadow: 10px 10px 10px rgba(43, 39, 39, 0.116);
+    margin-bottom: 2rem;
+
+}
+footer nav{
+    background-color: rgba(56, 56, 56, 0.137);
+    padding: 1rem;
+}
+footer nav a{
+    margin-bottom: 1rem;
+    padding: 1rem;
+    text-decoration: none;
+    color: black;
+
+}
+footer nav a:hover{
+    color: red;
+    opacity: 0.5;
+    cursor: pointer;
 }
